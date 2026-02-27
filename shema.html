@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stickman Fighter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Stickman Fighter</h1>
+  <div id="hud">
+    <div id="p1health" class="health">Player 1: <span id="p1hp">100</span></div>
+    <div id="p2health" class="health">Player 2: <span id="p2hp">100</span></div>
+  </div>
+  <canvas id="game" width="900" height="400"></canvas>
+  <div id="controls">
+    <p>Controls — P1: A/D move, W jump, S attack. P2: ←/→ move, ↑ jump, ↓ attack.</p>
+    <button id="restart">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
